@@ -60,4 +60,24 @@ footer {
   height: 30vh;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-container .featured {
+  grid-column: 2 span;
+}
+.grid-container .featured h3 {
+  text-align: center;
+}
+.grid-container #card0,
+.grid-container #card1,
+.grid-container #card2,
+.grid-container #card3,
+.grid-container #card4,
+.grid-container #card5 {
+  display: flex;
+  gap: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */

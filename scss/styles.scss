@@ -64,3 +64,24 @@ $cocoG: 'COCOGOOSE', sans-serif;
 footer {
   height: 30vh;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  .featured {
+    grid-column: 2 span;
+    h3 {
+      text-align: center;
+    }
+  }
+  #card0,
+  #card1,
+  #card2,
+  #card3,
+  #card4,
+  #card5 {
+    display: flex;
+    gap: 10px;
+  }
+}
