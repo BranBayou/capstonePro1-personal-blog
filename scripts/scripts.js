@@ -1,3 +1,16 @@
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle("active");
+  navLinks.classList.toggle("active");
+});
+
+document.querySelectorAll('.mob-link').forEach(n => n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navLinks.classList.remove("active");
+}));
+
 const body = document.querySelector('body');
 const gridContainer = document.querySelector('.grid-container');
 const featuredBlogs = [
@@ -46,9 +59,9 @@ function showFeaturedBlogs(blog) {
       <img src="${featuredBlogs[blog].img}" alt="">
     </div>
     <div>
-      <h6>${featuredBlogs[blog].blogers}</h6>
-      <p>${featuredBlogs[blog].title}</p>
-      <p>${featuredBlogs[blog].description}</p>
+      <h6 class="blogerName">${featuredBlogs[blog].blogers}</h6>
+      <p class="blogerTitle">${featuredBlogs[blog].title}</p>
+      <p class="blogerDes">${featuredBlogs[blog].description}</p>
     </div>
   </div>
   `;
