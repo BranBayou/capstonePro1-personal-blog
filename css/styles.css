@@ -50,7 +50,7 @@ body p {
 
 .head-line {
   height: 87vh;
-  background-image: url(/img/bgimg.png);
+  background-image: url(/img/bgimg.jpg);
 }
 
 .head-line h1,
@@ -70,7 +70,7 @@ body p {
 
 .main-blog {
   height: 75vh;
-  background-image: url(/img/gray-texture.png);
+  background-image: url(/img/gray-texture.jpg);
 }
 
 .main-blog h2 {
@@ -101,6 +101,10 @@ body p {
 
 .main-blog .show-all-pro {
   border-bottom: 2px solid #d3d3d3;
+}
+
+.main-blog .show-all-blogs-btn {
+  display: none;
 }
 
 .grid-container {
@@ -269,6 +273,19 @@ footer {
 
   .main-blog .pro-container .blog {
     flex-direction: row !important;
+  }
+
+  .main-blog .pro-container .show-all-blogs-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-blog .pro-container .show-all-blogs-btn .show-all-blogs-bttton {
+    width: 80%;
+    height: 8vh;
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
   }
 
   .grid-container .featured {

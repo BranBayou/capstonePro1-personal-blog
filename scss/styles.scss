@@ -58,7 +58,7 @@ $cocoG: 'COCOGOOSE', sans-serif;
 
 .head-line {
   height: 87vh;
-  background-image: url(/img/bgimg.png);
+  background-image: url(/img/bgimg.jpg);
 
   h1,
   h2 {
@@ -78,7 +78,7 @@ $cocoG: 'COCOGOOSE', sans-serif;
 
 .main-blog {
   height: 75vh;
-  background-image: url(/img/gray-texture.png);
+  background-image: url(/img/gray-texture.jpg);
 
   h2 {
     color: #d3d3d3;
@@ -108,6 +108,10 @@ $cocoG: 'COCOGOOSE', sans-serif;
 
   .show-all-pro {
     border-bottom: 2px solid $colorG;
+  }
+
+  .show-all-blogs-btn {
+    display: none;
   }
 }
 
@@ -292,6 +296,19 @@ footer {
 
       .blog {
         flex-direction: row !important;
+      }
+
+      .show-all-blogs-btn {
+        display: flex;
+        justify-content: center;
+
+        .show-all-blogs-bttton {
+          width: 80%;
+          height: 8vh;
+          background-color: $colorR;
+          color: #fff;
+          border: none;
+        }
       }
     }
   }
