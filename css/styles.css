@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body h1 {
+  font-family: "COCOGOOSE", sans-serif;
+}
+body p {
+  font-family: "Lato", sans-serif;
+}
+
 .nav-bar {
   background-color: #272a31;
   height: 4vh;
@@ -160,6 +167,10 @@ footer {
   height: 236px;
 }
 
+.about-partner {
+  display: none;
+}
+
 .about-footer {
   background-color: #272a31;
   color: #d3d3d3;
@@ -253,6 +264,13 @@ footer {
   .overlay-section .img-2 {
     width: 432px;
     height: 236px;
+  }
+  .about-partner {
+    display: block;
+  }
+  .about-footer {
+    background-color: #d3d3d3;
+    color: #272a31;
   }
 }
 

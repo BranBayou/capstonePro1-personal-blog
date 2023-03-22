@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  h1 {
+    font-family: 'COCOGOOSE', sans-serif;                                       
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+}
+
 $colorB: #272a31;
 $colorR: #ec5242;
 $colorG: #d3d3d3;
@@ -177,6 +186,10 @@ footer {
   }
 }
 
+.about-partner {
+  display: none;
+}
+
 .about-footer {
   background-color: $colorB;
   color: $colorG;
@@ -285,6 +298,13 @@ footer {
     width: 432px;
     height: 236px;
   }
+}
+.about-partner {
+  display: block;
+}
+.about-footer {
+  background-color: $colorG;
+  color: $colorB;
 }
 
 }

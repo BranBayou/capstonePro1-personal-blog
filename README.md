@@ -19,7 +19,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
+# 📖 b personal blog website <a name="about-project"></a>
 
+This project is a personal blog website in which I share my technology ideas with my followers in 2023. 
 
 ## HTML+CSS Setup
 
@@ -34,6 +36,8 @@
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li>BOOTSTRAP</li>
+    <li>JS</li>
   </ul>
 </details>
 
@@ -48,7 +52,7 @@
 ## Key Features
 
 - npm packages
-- html, renders the project
+- html, css, bootstrap, and js renders the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,14 +83,14 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder: git@github.com:BranBayou/Mobile-First-Portfolio-Project.git
+Clone this repository to your desired folder: git@github.com:BranBayou/capstonePro1-personal-blog.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Install
 
 1. Clone the repo:
-  git@github.com:BranBayou/Mobile-First-Portfolio-Project.git
+  https://github.com/BranBayou/capstonePro1-personal-blog
 2. Install npm packages:
   npm.install
 
@@ -108,18 +112,10 @@ To run tests, run the following command:
 
 👤 **Author**
 
-- Berhanu Baye
+👤 Berhanu Baye
 - GitHub: [@BranBayou](https://github.com/BranBayou)
 - Twitter: [@bran-baye](https://twitter.com/bran_baye)
 - LinkedIn: [Berhanu Baye](https://www.linkedin.com/in/bran-baye/)
-
-- Drissa touredri
-- GitHub: [@Drissa](https://github.com/touredri)
-- Twitter: [@touredri](https://twitter.com/touredri)
-
-- Fatihah Oduwole
-- GitHub: [@Jeddaa](https://github.com/Jeddaa)
-- Twitter: [@_jeddaah](https://twitter.com/_jeddaah)
 
 
 
@@ -139,7 +135,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/BranBayou/Mobile-First-Portfolio-Project/issues).
+Feel free to check the [issues page](https://github.com/BranBayou/capstonePro1-personal-blog/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +151,7 @@ If you like this project to give a positive feedback and comments that will go a
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank My learner partners and Microverse for the support
+I would like to thank Microverse for this exercise and also pass my gratitude to Cindy Shin for designing the template and make it available for use. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
