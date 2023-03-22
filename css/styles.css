@@ -73,8 +73,18 @@ body p {
   background-image: url("../img/gray-texture.jpg");
 }
 
+.main-blog h1 {
+  color: #d3d3d3;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
 .main-blog h2 {
   color: #d3d3d3;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 200;
 }
 
 .main-blog h5 {
@@ -170,6 +180,10 @@ footer {
   background-color: #fff;
 }
 
+.head-line-about h2 {
+  display: none;
+}
+
 .branding-section .border-span3 {
   width: 50px;
   height: 3px;
@@ -206,8 +220,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+
   .mani-nav {
-    background-image: url(/img/bgimg.png);
+    background-image: url("../img/bgimg.jpg");
     overflow: hidden;
   }
 
@@ -238,8 +256,8 @@ footer {
     flex-direction: column;
     position: fixed;
     left: -100%;
-    top: 4vh;
-    height: 96vh;
+    top: 0;
+    height: 100vh;
     gap: 0;
     backdrop-filter: blur(10px);
     width: 100%;
@@ -325,6 +343,19 @@ footer {
   .overlay-section .img-2 {
     width: 432px;
     height: 236px;
+  }
+
+  .head-line-about .para-for-mob-no {
+    display: none;
+  }
+
+  .head-line-about .head-h2 {
+    display: block;
+  }
+
+  .head-line-about .contact-me,
+  .head-line-about .email-contact {
+    border: none;
   }
 
   .about-partner {
