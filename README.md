@@ -60,8 +60,7 @@ This project is a personal blog website in which I share my technology ideas wit
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://branbayou.github.io/Mobile-First-Portfolio-Project/)
-- [Outline Presentation Link](https://www.loom.com/share/33710626cbfa44f9bd50b6aead3ee798)
+- [Live Demo Link](https://branbayou.github.io/capstonePro1-personal-blog/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
