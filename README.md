@@ -104,7 +104,19 @@ To run tests, run the following command:
 <li>run npm start</li>
 </ul>
 
+### Run Tests
 
+to run tests, run the following command
+
+<ul>
+  <li>npx stylelint "**/*.{css,scss}"</li>
+  <li>npx eslint .</li>
+  <li>npx hint .</li>
+</ul>
+
+### Deployment
+
+This page has been deployed with gitbub pages.
 
 ## 👥 Authors <a name="authors"></a>
 
