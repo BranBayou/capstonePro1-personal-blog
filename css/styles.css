@@ -44,7 +44,7 @@ body p {
 
 .head-line {
   height: 87vh;
-  background-image: url("/img/bgimg.jpg");
+  background-image: url("../img/bgimg.jpg");
 }
 .head-line h1,
 .head-line h2 {
@@ -61,7 +61,7 @@ body p {
 
 .main-blog {
   height: 75vh;
-  background-image: url("/img/gray-texture.jpg");
+  background-image: url("../img/gray-texture.jpg");
 }
 .main-blog h2 {
   color: #d3d3d3;
@@ -156,13 +156,13 @@ footer {
   color: #d3d3d3;
   width: 432px;
   height: 236px;
-  background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("/img/kbsys.jpg");
+  background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../img/kbsys.jpg");
 }
 .overlay-section .img-overlay2 {
   color: #d3d3d3;
   width: 432px;
   height: 236px;
-  background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("/img/kbsys.jpg");
+  background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../img/kbsys.jpg");
 }
 .overlay-section .img-1,
 .overlay-section .img-2 {
