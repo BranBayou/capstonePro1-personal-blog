@@ -349,10 +349,9 @@ footer {
     align-items: center;
   }
 
-  .overlay-section .img-1,
-  .overlay-section .img-2 {
-    width: 432px;
-    height: 236px;
+  .overlay-section .overlay-part .img-overlay1,
+  .overlay-section .overlay-part .img-overlay2 {
+    width: 95%;
   }
 
   .head-line-about .para-for-mob-no {
@@ -373,28 +372,27 @@ footer {
   }
 
   .about-partner .yout {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 500;
   }
 
   .about-partner .gith {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 100;
   }
 
   .about-partner .micv {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 700;
   }
 
   .about-partner .w3s {
-    font-size: 22px;
+    font-size: 12px;
     font-weight: 100;
-    padding-left: 75px;
   }
 
   .about-partner .fcc {
-    font-size: 26px;
+    font-size: 16px;
     font-weight: 100;
   }
 
