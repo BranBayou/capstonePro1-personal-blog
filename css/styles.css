@@ -73,13 +73,6 @@ body p {
   background-image: url("../img/gray-texture.jpg");
 }
 
-.main-blog h1 {
-  color: #d3d3d3;
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-}
-
 .main-blog h2 {
   color: #d3d3d3;
   font-family: "Lato", sans-serif;
@@ -87,7 +80,7 @@ body p {
   font-weight: 200;
 }
 
-.main-blog h5 {
+.main-blog h3 {
   color: #ec5242;
 }
 
@@ -126,7 +119,7 @@ body p {
   grid-column: 2 span;
 }
 
-.grid-container .featured h3 {
+.grid-container .featured h2 {
   text-align: center;
 }
 
@@ -162,7 +155,7 @@ body p {
 
 .partners-section .partners {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 20px;
 }
 
 .partners-section .border-span2 {
@@ -180,7 +173,7 @@ footer {
   background-color: #fff;
 }
 
-.head-line-about h2 {
+.head-line-about .head-h2 {
   display: none;
 }
 
@@ -188,6 +181,14 @@ footer {
   width: 50px;
   height: 3px;
   background-color: #ec5242;
+}
+
+.overlay-section .overlay-info .border-span5 {
+  width: 50px;
+  height: 3px;
+  background-color: #ec5242;
+  align-self: center;
+  margin-top: 10px;
 }
 
 .overlay-section .img-overlay1 {
@@ -299,11 +300,16 @@ footer {
   }
 
   .main-blog .pro-container .show-all-blogs-btn .show-all-blogs-bttton {
+    margin-bottom: 50px;
     width: 80%;
     height: 8vh;
     background-color: #ec5242;
     color: #fff;
     border: none;
+  }
+
+  .main-blog .show-all-pro {
+    display: none;
   }
 
   .grid-container .featured {
@@ -334,6 +340,10 @@ footer {
   }
 
   /* About page styles */
+  .branding-section .brand-img {
+    width: 90%;
+  }
+
   .overlay-section .overlay-part {
     flex-direction: column;
     align-items: center;
@@ -362,8 +372,38 @@ footer {
     display: block;
   }
 
+  .about-partner .yout {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .about-partner .gith {
+    font-size: 32px;
+    font-weight: 100;
+  }
+
+  .about-partner .micv {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .about-partner .w3s {
+    font-size: 22px;
+    font-weight: 100;
+    padding-left: 75px;
+  }
+
+  .about-partner .fcc {
+    font-size: 26px;
+    font-weight: 100;
+  }
+
   .about-footer {
     background-color: #d3d3d3;
     color: #272a31;
+  }
+
+  .about-footer .right-footer .footer-link {
+    display: none;
   }
 }
