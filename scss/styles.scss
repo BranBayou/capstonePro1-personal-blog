@@ -58,7 +58,7 @@ $cocoG: 'COCOGOOSE', sans-serif;
 
 .head-line {
   height: 87vh;
-  background-image: url(/img/bgimg.png);
+  background-image: url("../img/bgimg.jpg");
 
   h1,
   h2 {
@@ -78,13 +78,16 @@ $cocoG: 'COCOGOOSE', sans-serif;
 
 .main-blog {
   height: 75vh;
-  background-image: url(/img/gray-texture.png);
+  background-image: url("../img/gray-texture.jpg");
 
   h2 {
-    color: #d3d3d3;
+    color: $colorG;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
   }
 
-  h5 {
+  h3 {
     color: $colorR;
   }
 
@@ -109,6 +112,10 @@ $cocoG: 'COCOGOOSE', sans-serif;
   .show-all-pro {
     border-bottom: 2px solid $colorG;
   }
+
+  .show-all-blogs-btn {
+    display: none;
+  }
 }
 
 .grid-container {
@@ -118,7 +125,7 @@ $cocoG: 'COCOGOOSE', sans-serif;
   .featured {
     grid-column: 2 span;
 
-    h3 {
+    h2 {
       text-align: center;
     }
 
@@ -159,7 +166,7 @@ $cocoG: 'COCOGOOSE', sans-serif;
 
   .partners {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 20px;
   }
 
   .border-span2 {
@@ -179,6 +186,10 @@ footer {
   .aboutP {
     background-color: #fff;
   }
+
+  .head-h2 {
+    display: none;
+  }
 }
 
 .branding-section {
@@ -190,18 +201,28 @@ footer {
 }
 
 .overlay-section {
+  .overlay-info {
+    .border-span5 {
+      width: 50px;
+      height: 3px;
+      background-color: $colorR;
+      align-self: center;
+      margin-top: 10px;
+    }
+  }
+
   .img-overlay1 {
     color: $colorG;
     width: 432px;
     height: 236px;
-    background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url('/img/kbsys.jpg');
+    background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../img/kbsys.jpg");
   }
 
   .img-overlay2 {
     color: $colorG;
     width: 432px;
     height: 236px;
-    background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url('/img/kbsys.jpg');
+    background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../img/kbsys.jpg");
   }
 
   .img-1,
@@ -221,8 +242,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+
   .mani-nav {
-    background-image: url(/img/bgimg.png);
+    background-image: url('../img/bgimg.jpg');
     overflow: hidden;
 
     .hamburger {
@@ -252,8 +277,8 @@ footer {
       flex-direction: column;
       position: fixed;
       left: -100%;
-      top: 4vh;
-      height: 96vh;
+      top: 0;
+      height: 100vh;
       gap: 0;
       backdrop-filter: blur(10px);
       width: 100%;
@@ -293,6 +318,24 @@ footer {
       .blog {
         flex-direction: row !important;
       }
+
+      .show-all-blogs-btn {
+        display: flex;
+        justify-content: center;
+
+        .show-all-blogs-bttton {
+          margin-bottom: 50px;
+          width: 80%;
+          height: 8vh;
+          background-color: $colorR;
+          color: #fff;
+          border: none;
+        }
+      }
+    }
+
+    .show-all-pro {
+      display: none;
     }
   }
 
@@ -328,26 +371,76 @@ footer {
   }
 
   /* About page styles */
+  .branding-section {
+    .brand-img {
+      width: 90%;
+    }
+  }
 
   .overlay-section {
     .overlay-part {
       flex-direction: column;
       align-items: center;
+
+      .img-overlay1,
+      .img-overlay2 {
+        width: 95%;
+      }
+    }
+  }
+
+  .head-line-about {
+    .para-for-mob-no {
+      display: none;
     }
 
-    .img-1,
-    .img-2 {
-      width: 432px;
-      height: 236px;
+    .head-h2 {
+      display: block;
+    }
+
+    .contact-me,
+    .email-contact {
+      border: none;
     }
   }
 
   .about-partner {
     display: block;
+
+    .yout {
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    .gith {
+      font-size: 22px;
+      font-weight: 100;
+    }
+
+    .micv {
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .w3s {
+      font-size: 12px;
+      font-weight: 100;
+    }
+
+    .fcc {
+      font-size: 16px;
+      font-weight: 100;
+    }
   }
 
   .about-footer {
     background-color: $colorG;
     color: $colorB;
+
+    .right-footer {
+      .footer-link {
+        display: none;
+      }
+    }
   }
 }
