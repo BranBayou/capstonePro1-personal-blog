@@ -59,6 +59,8 @@ $cocoG: 'COCOGOOSE', sans-serif;
 .head-line {
   height: 87vh;
   background-image: url("../img/bgimg.jpg");
+  background-position: center;
+  background-size: cover;
 
   h1,
   h2 {
@@ -216,6 +218,8 @@ footer {
     width: 432px;
     height: 236px;
     background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../img/kbsys.jpg");
+    background-position: center;
+    background-size: cover;
   }
 
   .img-overlay2 {
@@ -223,6 +227,8 @@ footer {
     width: 432px;
     height: 236px;
     background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../img/kbsys.jpg");
+    background-position: center;
+    background-size: cover;
   }
 
   .img-1,
@@ -384,7 +390,7 @@ footer {
 
       .img-overlay1,
       .img-overlay2 {
-        width: 95%;
+        width: 100%;
       }
     }
   }

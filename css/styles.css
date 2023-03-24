@@ -7,7 +7,6 @@
 body h1 {
   font-family: "COCOGOOSE", sans-serif;
 }
-
 body p {
   font-family: "Lato", sans-serif;
 }
@@ -20,24 +19,19 @@ body p {
 .mani-nav {
   height: 9vh;
 }
-
 .mani-nav a {
   text-decoration: none;
 }
-
 .mani-nav .ccCamp {
   border: 4px solid #ec5242;
 }
-
 .mani-nav .hamburgerPlusLogo {
   display: flex;
 }
-
 .mani-nav .hamburger {
   display: none;
   cursor: pointer;
 }
-
 .mani-nav .bar {
   display: block;
   width: 25px;
@@ -51,18 +45,17 @@ body p {
 .head-line {
   height: 87vh;
   background-image: url("../img/bgimg.jpg");
+  background-position: center;
+  background-size: cover;
 }
-
 .head-line h1,
 .head-line h2 {
   color: #ec5242;
 }
-
 .head-line h3,
 .head-line h4 {
   color: #272a31;
 }
-
 .head-line p {
   color: #272a31;
   border: 3px solid white;
@@ -72,40 +65,32 @@ body p {
   height: 75vh;
   background-image: url("../img/gray-texture.jpg");
 }
-
 .main-blog h2 {
   color: #d3d3d3;
   font-family: "Lato", sans-serif;
   font-size: 22px;
   font-weight: 200;
 }
-
 .main-blog h3 {
   color: #ec5242;
 }
-
 .main-blog p {
   color: #d3d3d3;
 }
-
 .main-blog .blog {
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 .main-blog .blog:hover {
   border: 1px solid #d3d3d3;
 }
-
 .main-blog .border-span0 {
   width: 50px;
   height: 3px;
   background-color: #ec5242;
 }
-
 .main-blog .show-all-pro {
   border-bottom: 2px solid #d3d3d3;
 }
-
 .main-blog .show-all-blogs-btn {
   display: none;
 }
@@ -114,21 +99,17 @@ body p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
 .grid-container .featured {
   grid-column: 2 span;
 }
-
 .grid-container .featured h2 {
   text-align: center;
 }
-
 .grid-container .featured .border-span {
   width: 50px;
   height: 3px;
   background-color: #ec5242;
 }
-
 .grid-container #card0,
 .grid-container #card1,
 .grid-container #card2,
@@ -138,7 +119,6 @@ body p {
   display: flex;
   gap: 10px;
 }
-
 .grid-container .cards .blogerTitle {
   color: #ec5242;
 }
@@ -152,12 +132,10 @@ body p {
   background-color: #272a31;
   color: #d3d3d3;
 }
-
 .partners-section .partners {
   font-weight: 700;
   font-size: 20px;
 }
-
 .partners-section .border-span2 {
   width: 50px;
   height: 3px;
@@ -172,7 +150,6 @@ footer {
 .head-line-about .aboutP {
   background-color: #fff;
 }
-
 .head-line-about .head-h2 {
   display: none;
 }
@@ -190,21 +167,22 @@ footer {
   align-self: center;
   margin-top: 10px;
 }
-
 .overlay-section .img-overlay1 {
   color: #d3d3d3;
   width: 432px;
   height: 236px;
   background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../img/kbsys.jpg");
+  background-position: center;
+  background-size: cover;
 }
-
 .overlay-section .img-overlay2 {
   color: #d3d3d3;
   width: 432px;
   height: 236px;
   background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../img/kbsys.jpg");
+  background-position: center;
+  background-size: cover;
 }
-
 .overlay-section .img-1,
 .overlay-section .img-2 {
   width: 432px;
@@ -224,35 +202,28 @@ footer {
   .nav-bar {
     display: none;
   }
-
   .mani-nav {
     background-image: url("../img/bgimg.jpg");
     overflow: hidden;
   }
-
   .mani-nav .hamburger {
     display: block;
     position: fixed;
     cursor: pointer;
     z-index: 100;
   }
-
   .mani-nav .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-
   .mani-nav .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-
   .mani-nav .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
   .mani-nav .logo {
     display: none;
   }
-
   .mani-nav .nav-links {
     flex-direction: column;
     position: fixed;
@@ -265,19 +236,15 @@ footer {
     text-align: center;
     transition: 0.2s;
   }
-
   .mani-nav .nav-links .list-group-item {
     margin: 16px 0;
   }
-
   .mani-nav .nav-links .ccCamp {
     border: none;
   }
-
   .mani-nav .nav-links.active {
     left: 0;
   }
-
   .head-line .head-line-con h1,
   .head-line .head-line-con h2,
   .head-line .head-line-con h3,
@@ -285,20 +252,16 @@ footer {
   .head-line .head-line-con p {
     width: 100% !important;
   }
-
   .main-blog .pro-container {
     flex-direction: column;
   }
-
   .main-blog .pro-container .blog {
     flex-direction: row !important;
   }
-
   .main-blog .pro-container .show-all-blogs-btn {
     display: flex;
     justify-content: center;
   }
-
   .main-blog .pro-container .show-all-blogs-btn .show-all-blogs-bttton {
     margin-bottom: 50px;
     width: 80%;
@@ -307,15 +270,12 @@ footer {
     color: #fff;
     border: none;
   }
-
   .main-blog .show-all-pro {
     display: none;
   }
-
   .grid-container .featured {
     grid-column: 2 spans;
   }
-
   .grid-container #card0,
   .grid-container #card1,
   .grid-container #card2,
@@ -324,84 +284,69 @@ footer {
   .grid-container #card5 {
     grid-column: 2 spans;
   }
-
   .show-More .show-more-btn {
     display: block;
     width: 100%;
     height: 8vh;
   }
-
   .partners-section {
     display: none;
   }
-
   footer {
     display: none;
   }
-
   /* About page styles */
   .branding-section .brand-img {
     width: 90%;
   }
-
   .overlay-section .overlay-part {
     flex-direction: column;
     align-items: center;
   }
-
   .overlay-section .overlay-part .img-overlay1,
   .overlay-section .overlay-part .img-overlay2 {
-    width: 95%;
+    width: 100%;
   }
-
   .head-line-about .para-for-mob-no {
     display: none;
   }
-
   .head-line-about .head-h2 {
     display: block;
   }
-
   .head-line-about .contact-me,
   .head-line-about .email-contact {
     border: none;
   }
-
   .about-partner {
     display: block;
   }
-
   .about-partner .yout {
     font-size: 22px;
     font-weight: 500;
   }
-
   .about-partner .gith {
     font-size: 22px;
     font-weight: 100;
   }
-
   .about-partner .micv {
     font-size: 22px;
     font-weight: 700;
   }
-
   .about-partner .w3s {
     font-size: 12px;
     font-weight: 100;
   }
-
   .about-partner .fcc {
     font-size: 16px;
     font-weight: 100;
   }
-
   .about-footer {
     background-color: #d3d3d3;
     color: #272a31;
   }
-
   .about-footer .right-footer .footer-link {
     display: none;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
